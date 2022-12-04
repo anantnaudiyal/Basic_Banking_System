@@ -1,0 +1,65 @@
+/* index.php css */
+#mid{
+   
+    padding: 3rem;
+    background-image:linear-gradient(to right, rgba(51, 62, 222, 0.571),rgba(101, 92, 222, 0.416),rgba(77, 175, 224, 0.493),rgba(62, 184, 211, 0.564), rgba(91, 199, 220, 0.705) ), url("./bgg.jpg");
+    display: flex;
+    flex-direction:row;
+    height: 25rem;
+    background-repeat: no-repeat;
+}
+
+#main_logo{
+    height: 10rem;
+    width: 20rem;
+}
+#infinity_logo{
+    height: 5rem;
+    width: 20rem;
+}
+#left{
+    width:30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#right{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#right h1{
+    font-size:4rem;
+}
+#right h3{
+    padding-bottom: 2rem;
+    font-size:2rem;
+}
+#button{
+    margin: 1.5rem;
+    height: 3rem;
+    width: 12rem;
+    border-radius: 1rem;
+    background-color: aquamarine;
+    font-size: 1rem;
+}
+#button:hover{
+  color: blueviolet;
+}
+
+#contact{
+    background-color: rgb(128, 123, 123);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+#contact p{
+    font-size: 1.5rem;
+    
+}
+
+/* transaction.php css */
+
